@@ -117,6 +117,10 @@ export function SiteFooter() {
           </div>
         </div>
       </div>
-    </footer>
+    
+      <div className="relative z-10 px-5 py-4 text-center text-xs opacity-60">
+        Website by <a href="https://triskelion.vercel.app" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-80">Triskelion Inc.</a>
+      </div>
+</footer>
   );
 }
